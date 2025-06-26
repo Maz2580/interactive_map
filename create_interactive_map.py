@@ -4,7 +4,7 @@ from folium.plugins import HeatMap, FeatureGroupSubGroup, MarkerCluster
 import branca.colormap as cm
 
 # --- Configuration ---
-SHAPEFILE_PATH = "app/data/spatial/shapefile/Data_for_interactiveMap/Path_conectivity_data_all_years.shp"
+SHAPEFILE_PATH = "data/Data_for_interactiveMap/Path_conectivity_data_all_years.shp"
 OUTPUT_HTML_PATH = "interactive_map.html" # Will save in the root for now
 DELIV_YEAR_COL = 'Deliv_Year'
 CATEGORY_COL = 'category'
